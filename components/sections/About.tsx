@@ -36,7 +36,7 @@ export default function About() {
                     <div className="space-y-8">
                         <div
                             className="rounded-2xl overflow-hidden shadow-2xl h-64 bg-cover bg-center"
-                            style={{ backgroundImage: 'url("/images/apartment_interior_living_room.png")' }}
+                            style={{ backgroundImage: 'url("/images/oliva/IMG_2515.jpg")' }}
                         />
 
                         <div className="grid grid-cols-2 gap-6">
