@@ -18,8 +18,8 @@ export default function Availability() {
     };
 
     const monthNames = [
-        "Január", "Február", "Marec", "Apríl", "Máj", "Jún",
-        "Júl", "August", "September", "Október", "November", "December"
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
     ];
 
     const renderDays = () => {
@@ -47,7 +47,7 @@ export default function Availability() {
                 >
                     {day}
                     <div className="text-[10px] mt-1 uppercase tracking-tighter opacity-60">
-                        {isReserved ? "Obsadené" : "Voľné"}
+                        {isReserved ? "Reserved" : "Available"}
                     </div>
                 </div>
             );
@@ -60,7 +60,7 @@ export default function Availability() {
         <section id="availability" className="section-padding bg-white">
             <div className="container mx-auto max-w-4xl">
                 <h2 className="text-3xl font-bold text-center mb-12 text-primary uppercase tracking-wider">
-                    Obsadenosť
+                    Availability
                 </h2>
 
                 <div className="bg-white shadow-2xl rounded-3xl overflow-hidden border border-gray-100">
@@ -75,7 +75,7 @@ export default function Availability() {
 
                     {/* Weekdays */}
                     <div className="grid grid-cols-7 bg-gray-50 text-center font-bold text-sm text-gray-500 py-3 uppercase tracking-tighter border-b border-gray-100">
-                        <div>Po</div><div>Ut</div><div>St</div><div>Št</div><div>Pi</div><div>So</div><div>Ne</div>
+                        <div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div><div>Sun</div>
                     </div>
 
                     {/* Days Grid */}
@@ -87,11 +87,11 @@ export default function Availability() {
                     <div className="p-6 bg-gray-50 flex justify-center gap-8 text-sm font-medium">
                         <div className="flex items-center gap-2">
                             <span className="w-4 h-4 rounded bg-green-500"></span>
-                            <span>Voľné</span>
+                            <span>Available</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <span className="w-4 h-4 rounded bg-red-500"></span>
-                            <span>Obsadené</span>
+                            <span>Reserved</span>
                         </div>
                     </div>
                 </div>

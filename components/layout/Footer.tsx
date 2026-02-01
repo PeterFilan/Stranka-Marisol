@@ -7,7 +7,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Contact Info */}
                     <div>
-                        <h3 className="text-xl font-bold mb-4">Kontakt</h3>
+                        <h3 className="text-xl font-bold mb-4">Contact</h3>
                         <div className="flex flex-col gap-2">
                             <a href="mailto:info@yourapartment.com" className="flex items-center gap-2 hover:text-primary transition-colors">
                                 <FaEnvelope /> info@yourapartment.com
@@ -20,7 +20,7 @@ export default function Footer() {
 
                     {/* Social Media */}
                     <div>
-                        <h3 className="text-xl font-bold mb-4">Sledujte nás</h3>
+                        <h3 className="text-xl font-bold mb-4">Follow us</h3>
                         <div className="flex gap-4">
                             <a
                                 href="https://wa.me/421123456789"

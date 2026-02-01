@@ -6,32 +6,32 @@ import { FaCheck } from "react-icons/fa";
 const equipmentData = [
     {
         id: "bedroom1",
-        label: "Spálňa 1",
-        items: ["manželská posteľ", "nočné stolíky", "vstavaná skriňa", "posteľná bielizeň", "klimatizácia"],
+        label: "Bedroom 1",
+        items: ["double bed", "nightstands", "built-in wardrobe", "bed linen", "air conditioning"],
         image: "/images/bedroom_1.png"
     },
     {
         id: "bedroom2",
-        label: "Spálňa 2",
-        items: ["2x jednolôžková posteľ", "komoda", "pracovný stôl", "posteľná bielizeň"],
+        label: "Bedroom 2",
+        items: ["2x single bed", "chest of drawers", "desk", "bed linen"],
         image: "/images/bedroom_1.png" // Reusing for now
     },
     {
         id: "livingroom",
-        label: "Obývačka",
-        items: ["rozkladacia pohovka", "TV", "konferenčný stolík", "jedálenský kút", "vstup na terasu"],
+        label: "Living Room",
+        items: ["sofa bed", "TV", "coffee table", "dining area", "access to terrace"],
         image: "/images/apartment_interior_living_room.png"
     },
     {
         id: "kitchen",
-        label: "Kuchyňa",
-        items: ["chladnička", "mraznička", "rúra", "varná doska", "mikrovlnka", "rýchlovarná kanvica", "kávovar"],
+        label: "Kitchen",
+        items: ["fridge", "freezer", "oven", "hob", "microwave", "electric kettle", "coffee maker"],
         image: "/images/kitchen_modern.png"
     },
     {
         id: "bathroom",
-        label: "Kúpeľňa",
-        items: ["sprchovací kút", "WC", "umývadlo", "práčka", "uteráky", "fén"],
+        label: "Bathroom",
+        items: ["shower", "WC", "sink", "washing machine", "towels", "hair dryer"],
         image: "/images/kitchen_modern.png" // Placeholder
     }
 ];
@@ -45,7 +45,7 @@ export default function Equipment() {
         <section id="equipment" className="section-padding bg-accent/20">
             <div className="container mx-auto">
                 <h2 className="text-3xl font-bold text-center mb-12 text-primary uppercase tracking-wider">
-                    Vybavenie apartmánu
+                    Apartment Equipment
                 </h2>
 
                 {/* Tabs Grid */}
@@ -55,8 +55,8 @@ export default function Equipment() {
                             key={tab.id}
                             onClick={() => setActiveTab(tab.id)}
                             className={`px-6 py-2 rounded-lg font-semibold transition-all duration-300 ${activeTab === tab.id
-                                    ? "bg-primary text-white shadow-lg scale-105"
-                                    : "bg-white text-darkGray hover:bg-gray-100"
+                                ? "bg-primary text-white shadow-lg scale-105"
+                                : "bg-white text-darkGray hover:bg-gray-100"
                                 }`}
                         >
                             {tab.label}

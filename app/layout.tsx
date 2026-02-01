@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Marisol Seaview Apartment",
-  description: "Krásny apartmán s výhľadom na more v Torrevieja, Španielsko.",
+  description: "Beautiful seaview apartment in Oliva, Spain.",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="sk">
+    <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   );

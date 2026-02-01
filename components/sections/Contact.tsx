@@ -6,13 +6,13 @@ export default function Contact() {
         <section id="contact" className="section-padding bg-white">
             <div className="container mx-auto">
                 <h2 className="text-3xl font-bold text-center mb-12 text-primary uppercase tracking-wider">
-                    Kontakt
+                    Contact
                 </h2>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                     {/* Social and Messaging */}
                     <div className="space-y-8">
-                        <h3 className="text-2xl font-bold text-darkGray mb-6">Napíšte nám</h3>
+                        <h3 className="text-2xl font-bold text-darkGray mb-6">Write to us</h3>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <a
                                 href="https://wa.me/421123456789"
@@ -22,7 +22,7 @@ export default function Contact() {
                                 <FaWhatsapp size={32} className="group-hover:scale-110 transition-transform" />
                                 <div>
                                     <div className="font-bold text-lg">WhatsApp</div>
-                                    <div className="text-sm opacity-80">Odpovedáme takmer ihneď</div>
+                                    <div className="text-sm opacity-80">We respond almost immediately</div>
                                 </div>
                             </a>
                             <a
@@ -33,7 +33,7 @@ export default function Contact() {
                                 <FaFacebookMessenger size={32} className="group-hover:scale-110 transition-transform" />
                                 <div>
                                     <div className="font-bold text-lg">Messenger</div>
-                                    <div className="text-sm opacity-80">Napíšte nám cez Facebook</div>
+                                    <div className="text-sm opacity-80">Write to us via Facebook</div>
                                 </div>
                             </a>
                             <a
@@ -44,7 +44,7 @@ export default function Contact() {
                                 <FaInstagram size={32} className="group-hover:scale-110 transition-transform" />
                                 <div>
                                     <div className="font-bold text-lg">Instagram</div>
-                                    <div className="text-sm opacity-80">Pozrite si naše fotky</div>
+                                    <div className="text-sm opacity-80">Check out our photos</div>
                                 </div>
                             </a>
                         </div>
@@ -52,16 +52,16 @@ export default function Contact() {
 
                     {/* Location and Navigation */}
                     <div className="space-y-8">
-                        <h3 className="text-2xl font-bold text-darkGray mb-6">Kde nás nájdete</h3>
+                        <h3 className="text-2xl font-bold text-darkGray mb-6">Where to find us</h3>
                         <div className="bg-accent/10 p-8 rounded-3xl border border-accent/30">
                             <div className="flex items-start">
                                 <FaMapMarkerAlt className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                                 <div className="ml-4">
-                                    <h3 className="font-bold text-gray-900 uppercase tracking-widest">Adresa</h3>
+                                    <h3 className="font-bold text-gray-900 uppercase tracking-widest">Address</h3>
                                     <p className="text-gray-600">
                                         VXV2+7C2 Molinell<br />
                                         Oliva, Valencia<br />
-                                        Španielsko
+                                        Spain
                                     </p>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ export default function Contact() {
                             <div className="flex items-start">
                                 <FaPhone className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                                 <div className="ml-4">
-                                    <h3 className="font-bold text-gray-900 uppercase tracking-widest">Telefón</h3>
+                                    <h3 className="font-bold text-gray-900 uppercase tracking-widest">Phone</h3>
                                     <p className="text-gray-600">+421 900 000 000</p>
                                 </div>
                             </div>

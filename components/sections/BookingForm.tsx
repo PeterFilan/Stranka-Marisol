@@ -15,7 +15,7 @@ export default function BookingForm() {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        alert("Rezervácia bola odoslaná! Budeme vás kontaktovať.");
+        alert("Booking request sent! We will contact you.");
         console.log("Form submitted:", formData);
     };
 
@@ -27,14 +27,14 @@ export default function BookingForm() {
         <section id="booking" className="section-padding bg-accent/20">
             <div className="container mx-auto max-w-3xl">
                 <h2 className="text-3xl font-bold text-center mb-12 text-primary uppercase tracking-wider">
-                    Rezervácia
+                    Booking
                 </h2>
 
                 <div className="bg-white p-8 sm:p-12 rounded-3xl shadow-2xl">
                     <form onSubmit={handleSubmit} className="space-y-6">
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <div>
-                                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Meno</label>
+                                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">First Name</label>
                                 <input
                                     type="text"
                                     name="firstName"
@@ -45,7 +45,7 @@ export default function BookingForm() {
                                 />
                             </div>
                             <div>
-                                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Priezvisko</label>
+                                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Last Name</label>
                                 <input
                                     type="text"
                                     name="lastName"
@@ -71,22 +71,22 @@ export default function BookingForm() {
 
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                             <div>
-                                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Počet osôb</label>
+                                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Number of Guests</label>
                                 <select
                                     name="guests"
                                     className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all"
                                     value={formData.guests}
                                     onChange={handleChange}
                                 >
-                                    <option value="1">1 osoba</option>
-                                    <option value="2">2 osoby</option>
-                                    <option value="3">3 osoby</option>
-                                    <option value="4">4 osoby</option>
-                                    <option value="5">5 osôb</option>
+                                    <option value="1">1 person</option>
+                                    <option value="2">2 people</option>
+                                    <option value="3">3 people</option>
+                                    <option value="4">4 people</option>
+                                    <option value="5">5 people</option>
                                 </select>
                             </div>
                             <div>
-                                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Príchod</label>
+                                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Check-in</label>
                                 <input
                                     type="date"
                                     name="checkIn"
@@ -97,7 +97,7 @@ export default function BookingForm() {
                                 />
                             </div>
                             <div>
-                                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Odchod</label>
+                                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Check-out</label>
                                 <input
                                     type="date"
                                     name="checkOut"
@@ -110,7 +110,7 @@ export default function BookingForm() {
                         </div>
 
                         <div>
-                            <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Správa (voliteľné)</label>
+                            <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Message (optional)</label>
                             <textarea
                                 name="message"
                                 rows={4}
@@ -124,7 +124,7 @@ export default function BookingForm() {
                             type="submit"
                             className="w-full bg-primary text-white font-bold py-4 rounded-xl shadow-lg hover:bg-cyan-600 hover:scale-[1.02] transition-all duration-300 uppercase tracking-widest text-lg"
                         >
-                            Odoslať rezerváciu
+                            Send Booking Request
                         </button>
                     </form>
                 </div>

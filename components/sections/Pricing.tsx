@@ -1,25 +1,25 @@
 export default function Pricing() {
     const pricingData = [
-        { period: "Sezóna", daily: "120 €", weekly: "780 €", monthly: "2800 €" },
-        { period: "Mimo sezóny", daily: "80 €", weekly: "520 €", monthly: "1800 €" },
-        { period: "Zima", daily: "60 €", weekly: "390 €", monthly: "1200 €" },
+        { period: "High Season", daily: "120 €", weekly: "780 €", monthly: "2800 €" },
+        { period: "Off-season", daily: "80 €", weekly: "520 €", monthly: "1800 €" },
+        { period: "Winter", daily: "60 €", weekly: "390 €", monthly: "1200 €" },
     ];
 
     return (
         <section id="pricing" className="section-padding bg-accent/10">
             <div className="container mx-auto">
                 <h2 className="text-3xl font-bold text-center mb-12 text-primary uppercase tracking-wider">
-                    Cenník
+                    Pricing
                 </h2>
 
                 <div className="overflow-x-auto shadow-2xl rounded-2xl">
                     <table className="w-full text-left bg-white border-collapse">
                         <thead>
                             <tr className="bg-primary text-white text-lg font-bold">
-                                <th className="p-6">Obdobie</th>
-                                <th className="p-6">Denná sadzba</th>
-                                <th className="p-6">11+ nocí</th>
-                                <th className="p-6">30+ nocí</th>
+                                <th className="p-6">Period</th>
+                                <th className="p-6">Daily Rate</th>
+                                <th className="p-6">11+ Nights</th>
+                                <th className="p-6">30+ Nights</th>
                             </tr>
                         </thead>
                         <tbody className="divide-y divide-gray-100">
@@ -36,7 +36,7 @@ export default function Pricing() {
                 </div>
 
                 <div className="mt-8 text-center text-gray-500 italic">
-                    * Ceny sú orientačné a môžu sa líšiť v závislosti od konkrétnych termínov a sviatkov.
+                    * Prices are indicative and may vary depending on specific dates and holidays.
                 </div>
             </div>
         </section>
