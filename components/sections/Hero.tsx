@@ -8,7 +8,7 @@ export default function Hero() {
         <section id="home" className="relative h-screen flex flex-col items-center justify-center text-white overflow-hidden">
             <div className="absolute inset-0 z-0">
                 <Image
-                    src="/images/oliva/IMG_0356.jpg"
+                    src="/images/oliva/hero-main.jpg"
                     alt="Oliva Beach Apartment with Sea View"
                     fill
                     className="object-cover"

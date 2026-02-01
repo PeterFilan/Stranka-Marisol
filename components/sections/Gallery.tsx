@@ -6,6 +6,7 @@ import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 
 const photos = [
+    "/images/oliva/hero-main.jpg",
     "/images/oliva/IMG_0356.jpg",
     "/images/oliva/IMG_0347.jpg",
     "/images/oliva/IMG_0354.jpg",
