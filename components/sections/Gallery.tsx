@@ -8,6 +8,8 @@ import { useTranslations } from "next-intl";
 
 const photos = [
     "/images/oliva/hero-main.jpg",
+    "/images/oliva/resort_pool_view_1.png",
+    "/images/oliva/resort_pool_view_2.jpg",
     "/images/oliva/188e782d-5f5f-4a5d-87d9-b52457d613fd.jpg",
     "/images/oliva/251f9a5b-677a-4121-a0fc-d45ea8cbc39c.jpg",
     "/images/oliva/349bba44-fd08-43dd-873e-20fa42904c59.jpg",

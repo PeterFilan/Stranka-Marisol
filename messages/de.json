@@ -25,14 +25,13 @@
     },
     "Pricing": {
         "title": "Preise",
-        "period": "Zeitraum",
-        "daily": "Tagespreis",
-        "weekly": "11+ Nächte",
-        "monthly": "30+ Nächte",
-        "high": "Hochsaison",
-        "off": "Nebensaison",
-        "winter": "Winter",
-        "note": "* Die Preise sind Richtwerte und können je nach Datum und Feiertagen variieren."
+        "lowSeason": "Nebensaison (Okt - Mai)",
+        "middleSeason": "Zwischensaison (Juni & Sept)",
+        "highSeason": "Hochsaison (Juli & Aug)",
+        "longTerm": "Langzeit (Okt - Mai)",
+        "perDay": "/ Tag",
+        "perMonth": "/ Monat",
+        "note": "* Die Preise sind Richtwerte und können je nach Datum und Feiertagen variieren. Langzeitpreis exklusive Energiekosten."
     },
     "Availability": {
         "title": "Verfügbarkeit"
@@ -41,16 +40,28 @@
         "title": "Kontakt",
         "writeUs": "Schreiben Sie uns",
         "findUs": "Wo Sie uns finden",
+        "name": "Name",
+        "email": "E-Mail",
+        "message": "Nachricht",
+        "send": "Nachricht senden",
         "address": "Adresse",
         "phone": "Telefon",
-        "email": "E-Mail"
+        "email_label": "E-Mail"
     },
     "Equipment": {
         "title": "Apartment Ausstattung"
     },
+    "Resort": {
+        "title": "Resort-Ausstattung",
+        "subtitle": "Alles für Ihren perfekten Urlaub",
+        "text": "Unser Apartment ist Teil eines wunderschönen Resortkomplexes mit großen Swimmingpools, gepflegten Gärten und sicheren Parkplätzen. Der perfekte Ort zum Entspannen nach einem Tag am Strand.",
+        "pools": "2 Schwimmbäder",
+        "gardens": "Üppige Gärten",
+        "parking": "Privatparkplatz"
+    },
     "Navigation": {
         "home": "Startseite",
-        "about": "Über uns",
+        "about": "Apartment",
         "gallery": "Galerie",
         "pricing": "Preise",
         "availability": "Verfügbarkeit",

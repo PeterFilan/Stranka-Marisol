@@ -15,12 +15,12 @@ export default function Header() {
 
     const navItems = [
         { href: `/${locale}#home`, label: t("home") },
-        { href: `/${locale}#about`, label: t("about") },
-        { href: `/${locale}/gallery`, label: t("gallery") }, // Separate page
-        { href: `/${locale}/location`, label: t("location") }, // Separate page
-        { href: `/${locale}#pricing`, label: t("pricing") },
+        { href: `/${locale}#about`, label: t("about") }, // Renamed to "Apartment" in translations
+        { href: `/${locale}/gallery`, label: t("gallery") },
+        { href: `/${locale}/location`, label: t("location") },
         { href: `/${locale}#availability`, label: t("availability") },
-        { href: `/${locale}/location`, label: t("contact") },
+        { href: `/${locale}#booking`, label: t("booking") },
+        { href: `/${locale}/location`, label: t("contact") }, // Still points to location page where contact form is
     ];
 
     const languages = [

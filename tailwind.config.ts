@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#03abc0",
-        accent: "#e6f6ff",
+        primary: "#013545", // Deep Teal/Blue - User requested
+        accent: "#e0f7fa",  // Very light matching teal for backgrounds
         darkGray: "#333333",
       },
       fontFamily: {

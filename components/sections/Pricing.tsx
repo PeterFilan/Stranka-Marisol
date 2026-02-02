@@ -4,9 +4,10 @@ export default function Pricing() {
     const t = useTranslations("Pricing");
 
     const pricingData = [
-        { period: t("high"), daily: "120 €", weekly: "780 €", monthly: "2800 €" },
-        { period: t("off"), daily: "80 €", weekly: "520 €", monthly: "1800 €" },
-        { period: t("winter"), daily: "60 €", weekly: "390 €", monthly: "1200 €" },
+        { period: t("lowSeason"), price: `100 € ${t("perDay")}` },
+        { period: t("middleSeason"), price: `125 € ${t("perDay")}` },
+        { period: t("highSeason"), price: `145 € ${t("perDay")}` },
+        { period: t("longTerm"), price: `1000 € ${t("perMonth")}` },
     ];
 
     return (
@@ -16,23 +17,13 @@ export default function Pricing() {
                     {t("title")}
                 </h2>
 
-                <div className="overflow-x-auto shadow-2xl">
+                <div className="overflow-x-auto shadow-2xl max-w-4xl mx-auto">
                     <table className="w-full text-left bg-white border-collapse">
-                        <thead>
-                            <tr className="bg-primary text-white text-lg font-bold">
-                                <th className="p-6">{t("period")}</th>
-                                <th className="p-6">{t("daily")}</th>
-                                <th className="p-6">{t("weekly")}</th>
-                                <th className="p-6">{t("monthly")}</th>
-                            </tr>
-                        </thead>
                         <tbody className="divide-y divide-gray-100">
                             {pricingData.map((row, index) => (
                                 <tr key={index} className="hover:bg-gray-50 transition-colors">
-                                    <td className="p-6 font-semibold text-darkGray">{row.period}</td>
-                                    <td className="p-6 text-primary font-bold">{row.daily}</td>
-                                    <td className="p-6">{row.weekly}</td>
-                                    <td className="p-6">{row.monthly}</td>
+                                    <td className="p-6 font-semibold text-darkGray text-lg">{row.period}</td>
+                                    <td className="p-6 text-primary font-bold text-xl text-right">{row.price}</td>
                                 </tr>
                             ))}
                         </tbody>

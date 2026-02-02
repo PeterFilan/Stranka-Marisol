@@ -25,14 +25,13 @@
   },
   "Pricing": {
     "title": "Cenník",
-    "period": "Obdobie",
-    "daily": "Denná sadzba",
-    "weekly": "11+ Nocí",
-    "monthly": "30+ Nocí",
-    "high": "Hlavná sezóna",
-    "off": "Mimosezóna",
-    "winter": "Zima",
-    "note": "* Ceny sú orientačné a môžu sa líšiť v závislosti od konkrétnych dátumov a sviatkov."
+    "lowSeason": "Nízka sezóna (Okt - Máj)",
+    "middleSeason": "Stredná sezóna (Jún & Sept)",
+    "highSeason": "Hlavná sezóna (Júl & Aug)",
+    "longTerm": "Dlhodobo (Okt - Máj)",
+    "perDay": "/ deň",
+    "perMonth": "/ mesiac",
+    "note": "* Ceny sú orientačné a môžu sa líšiť v závislosti od konkrétnych dátumov a sviatkov. Cena za dlhodobý prenájom nezahŕňa energie."
   },
   "Availability": {
     "title": "Dostupnosť"
@@ -41,16 +40,28 @@
     "title": "Kontakt",
     "writeUs": "Napíšte nám",
     "findUs": "Kde nás nájdete",
+    "name": "Meno",
+    "email": "Email",
+    "message": "Správa",
+    "send": "Odoslať správu",
     "address": "Adresa",
     "phone": "Telefón",
-    "email": "Email"
+    "email_label": "Email"
   },
   "Equipment": {
     "title": "Vybavenie apartmánu"
   },
+  "Resort": {
+    "title": "Vybavenie Rezortu",
+    "subtitle": "Všetko pre vašu dokonalú dovolenku",
+    "text": "Náš apartmán je súčasťou krásneho rezortného komplexu s veľkými bazénmi, udržiavanými záhradami a bezpečným parkovaním. Je to ideálne miesto na oddych po dni strávenom na pláži.",
+    "pools": "2 Bazény",
+    "gardens": "Rozľahlé záhrady",
+    "parking": "Súkromné parkovanie"
+  },
   "Navigation": {
     "home": "Domov",
-    "about": "O nás",
+    "about": "Apartmán",
     "gallery": "Galéria",
     "pricing": "Cenník",
     "availability": "Dostupnosť",

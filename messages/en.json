@@ -25,14 +25,13 @@
     },
     "Pricing": {
         "title": "Pricing",
-        "period": "Period",
-        "daily": "Daily Rate",
-        "weekly": "11+ Nights",
-        "monthly": "30+ Nights",
-        "high": "High Season",
-        "off": "Off-season",
-        "winter": "Winter",
-        "note": "* Prices are indicative and may vary depending on specific dates and holidays."
+        "lowSeason": "Low season (Oct - May)",
+        "middleSeason": "Middle season (June & Sept)",
+        "highSeason": "High season (July & Aug)",
+        "longTerm": "Long Term (Oct - May)",
+        "perDay": "/ day",
+        "perMonth": "/ month",
+        "note": "* Prices are indicative and may vary depending on specific dates and holidays. Long term price excludes energy costs."
     },
     "Availability": {
         "title": "Availability"
@@ -41,16 +40,28 @@
         "title": "Contact",
         "writeUs": "Write to us",
         "findUs": "Where to find us",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send Message",
         "address": "Address",
         "phone": "Phone",
-        "email": "Email"
+        "email_label": "Email"
     },
     "Equipment": {
         "title": "Apartment Equipment"
     },
+    "Resort": {
+        "title": "Resort Amenities",
+        "subtitle": "Everything you need for a perfect holiday",
+        "text": "Our apartment is part of a beautiful resort complex featuring large swimming pools, well-maintained gardens, and secure parking. It's the perfect place to relax after a day at the beach.",
+        "pools": "2 Swimming Pools",
+        "gardens": "Lush Gardens",
+        "parking": "Private Parking"
+    },
     "Navigation": {
         "home": "Home",
-        "about": "About",
+        "about": "Apartment",
         "gallery": "Gallery",
         "pricing": "Pricing",
         "availability": "Availability",
