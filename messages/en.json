@@ -1,0 +1,61 @@
+{
+    "Hero": {
+        "title": "Oliva Beach Apartment",
+        "subtitle": "Your seaside escape in Molinell, Spain"
+    },
+    "About": {
+        "title": "About the Apartment",
+        "text1": "Enjoy the perfect sunrise right over the sea and a pleasant holiday atmosphere in our stylish apartment in Oliva. Located in the quiet Molinell area, right next to the beautiful Platja la Devesa and camping Pepe. A short walk through the dunes takes you directly to the sea.",
+        "text2": "Outside our generous terrace overlooking the sea, you are steps away from restaurants, supermarkets, and the beach. The apartment offers a fully equipped kitchen, comfortable furnishings, and everything you need for a carefree holiday.",
+        "highlights": {
+            "guests": "5 Guests",
+            "bedrooms": "2 Bedrooms",
+            "terrace": "Glass Terrace",
+            "bathroom": "1 Bathroom",
+            "pool": "Pool",
+            "airport": "Airport 35 min by car",
+            "beach": "Beach 10 min walk",
+            "restaurants": "Restaurants 5 min walk"
+        }
+    },
+    "Gallery": {
+        "title": "Gallery",
+        "view": "View",
+        "viewAll": "View Full Gallery"
+    },
+    "Pricing": {
+        "title": "Pricing",
+        "period": "Period",
+        "daily": "Daily Rate",
+        "weekly": "11+ Nights",
+        "monthly": "30+ Nights",
+        "high": "High Season",
+        "off": "Off-season",
+        "winter": "Winter",
+        "note": "* Prices are indicative and may vary depending on specific dates and holidays."
+    },
+    "Availability": {
+        "title": "Availability"
+    },
+    "Contact": {
+        "title": "Contact",
+        "writeUs": "Write to us",
+        "findUs": "Where to find us",
+        "address": "Address",
+        "phone": "Phone",
+        "email": "Email"
+    },
+    "Equipment": {
+        "title": "Apartment Equipment"
+    },
+    "Navigation": {
+        "home": "Home",
+        "about": "About",
+        "gallery": "Gallery",
+        "pricing": "Pricing",
+        "availability": "Availability",
+        "booking": "Booking",
+        "contact": "Contact",
+        "location": "Location"
+    }
+}

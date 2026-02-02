@@ -1,0 +1,61 @@
+{
+    "Hero": {
+        "title": "Oliva Beach Apartment",
+        "subtitle": "Ihr Rückzugsort am Meer in Molinell, Spanien"
+    },
+    "About": {
+        "title": "Über das Apartment",
+        "text1": "Genießen Sie den perfekten Sonnenaufgang direkt über dem Meer und eine angenehme Urlaubsatmosphäre in unserem stilvollen Apartment in Oliva. Gelegen in der ruhigen Gegend von Molinell, direkt neben der wunderschönen Platja la Devesa und dem Campingplatz Pepe. Ein kurzer Spaziergang durch die Dünen führt Sie direkt zum Meer.",
+        "text2": "Außerhalb unserer großzügigen Terrasse mit Meerblick sind Sie nur wenige Schritte von Restaurants, Supermärkten und dem Strand entfernt. Das Apartment bietet eine voll ausgestattete Küche, komfortable Einrichtung und alles, was Sie für einen unbeschwerten Urlaub benötigen.",
+        "highlights": {
+            "guests": "5 Gäste",
+            "bedrooms": "2 Schlafzimmer",
+            "terrace": "Glasterrasse",
+            "bathroom": "1 Badezimmer",
+            "pool": "Pool",
+            "airport": "Flughafen 35 Min. mit dem Auto",
+            "beach": "Strand 10 Min. zu Fuß",
+            "restaurants": "Restaurants 5 Min. zu Fuß"
+        }
+    },
+    "Gallery": {
+        "title": "Galerie",
+        "view": "Anzeigen",
+        "viewAll": "Vollständige Galerie anzeigen"
+    },
+    "Pricing": {
+        "title": "Preise",
+        "period": "Zeitraum",
+        "daily": "Tagespreis",
+        "weekly": "11+ Nächte",
+        "monthly": "30+ Nächte",
+        "high": "Hochsaison",
+        "off": "Nebensaison",
+        "winter": "Winter",
+        "note": "* Die Preise sind Richtwerte und können je nach Datum und Feiertagen variieren."
+    },
+    "Availability": {
+        "title": "Verfügbarkeit"
+    },
+    "Contact": {
+        "title": "Kontakt",
+        "writeUs": "Schreiben Sie uns",
+        "findUs": "Wo Sie uns finden",
+        "address": "Adresse",
+        "phone": "Telefon",
+        "email": "E-Mail"
+    },
+    "Equipment": {
+        "title": "Apartment Ausstattung"
+    },
+    "Navigation": {
+        "home": "Startseite",
+        "about": "Über uns",
+        "gallery": "Galerie",
+        "pricing": "Preise",
+        "availability": "Verfügbarkeit",
+        "booking": "Buchung",
+        "contact": "Kontakt",
+        "location": "Lage"
+    }
+}

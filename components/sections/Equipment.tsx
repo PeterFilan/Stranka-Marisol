@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { FaCheck } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 
 const equipmentData = [
     {
@@ -37,6 +38,7 @@ const equipmentData = [
 ];
 
 export default function Equipment() {
+    const t = useTranslations("Equipment");
     const [activeTab, setActiveTab] = useState(equipmentData[0].id);
 
     const activeData = equipmentData.find(tab => tab.id === activeTab) || equipmentData[0];
@@ -45,7 +47,7 @@ export default function Equipment() {
         <section id="equipment" className="section-padding bg-accent/20">
             <div className="container mx-auto">
                 <h2 className="text-3xl font-bold text-center mb-12 text-primary uppercase tracking-wider">
-                    Apartment Equipment
+                    {t("title")}
                 </h2>
 
                 {/* Tabs Grid */}
@@ -65,7 +67,7 @@ export default function Equipment() {
                 </div>
 
                 {/* Tab Content */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start bg-white p-8 rounded-2xl shadow-xl">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start bg-white p-8 shadow-xl">
                     <div className="order-2 md:order-1">
                         <h3 className="text-2xl font-bold mb-6 text-darkGray">{activeData.label}</h3>
                         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -80,7 +82,7 @@ export default function Equipment() {
 
                     <div className="order-1 md:order-2">
                         <div
-                            className="rounded-xl overflow-hidden shadow-lg h-64 bg-cover bg-center transition-all duration-500"
+                            className="overflow-hidden shadow-lg h-64 bg-cover bg-center transition-all duration-500"
                             style={{ backgroundImage: `url("${activeData.image}")` }}
                         />
                     </div>

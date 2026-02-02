@@ -2,8 +2,10 @@
 
 import { useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 
 export default function Availability() {
+    const t = useTranslations("Availability");
     const [currentDate, setCurrentDate] = useState(new Date());
 
     const daysInMonth = (year: number, month: number) => new Date(year, month + 1, 0).getDate();
@@ -60,10 +62,10 @@ export default function Availability() {
         <section id="availability" className="section-padding bg-white">
             <div className="container mx-auto max-w-4xl">
                 <h2 className="text-3xl font-bold text-center mb-12 text-primary uppercase tracking-wider">
-                    Availability
+                    {t("title")}
                 </h2>
 
-                <div className="bg-white shadow-2xl rounded-3xl overflow-hidden border border-gray-100">
+                <div className="bg-white shadow-2xl overflow-hidden border border-gray-100">
                     {/* Calendar Header */}
                     <div className="bg-primary p-6 text-white flex items-center justify-between">
                         <button onClick={handlePrevMonth} className="hover:scale-110 transition-transform"><FaChevronLeft size={24} /></button>
